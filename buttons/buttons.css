@@ -14,12 +14,14 @@ body{
 main{
 	width: 700px;
 	padding: 10px;
-	/*background-color: lightgray;*/
+	display: grid;
+	grid-template-columns: repeat(2, 300px);
 	display: grid;
 	grid-gap: 20px;
 }
 
 
+/* BUTTONS */
 input[type="button"],
 input[type="submit"],
 input[type="reset"],
@@ -39,10 +41,8 @@ button{
 }
 
 button:hover{
-	box-shadow: 2px 2px 2px grey;	
+	box-shadow: 2px 2px 2px lightgrey;	
 }
-
-/* BUTTONS */
 
 .btn-success{
 	background-color: #18F26C;
