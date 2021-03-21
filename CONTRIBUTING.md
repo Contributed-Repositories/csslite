@@ -33,10 +33,10 @@ On git commit, we plan to follow these styles:
 
 
 ##### Summary of features and templates
-> 1. **[feat]** - New feature to be added
+> 1. **[feat]** - New features to be added
 > 2. **\[fix](optional issue_ID)**  - What fixes you did on what issue
 > 3. **[edit]** - What file you edit (typo, comments)
-> 4. **\[Addition](branch_name)** - What file, folder, or branch you added.
+> 4. **\[Addition](what_was_added)** - What file, folder, or branch you add.
 
 
 ## Pull Request Process
